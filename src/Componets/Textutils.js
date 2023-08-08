@@ -8,7 +8,7 @@ export default function Textutils() {
           <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
             <div className="md:5/12 lg:w-5/12">
               <img
-                src="/images/ab.png"
+                src="/Images/ab.png"
                 alt="Not found"
                 loading="lazy"
                 width=""
@@ -25,14 +25,11 @@ export default function Textutils() {
                 case and upper case letters, where you can capitalize,
                 uncapitalize, convert to mix case and transform your text.
               </p>
-              <p className="mt-4 text-gray-600">
-                {" "}
-              </p>
+              <p className="mt-4 text-gray-600"> </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
   );
 }

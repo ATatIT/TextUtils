@@ -8,7 +8,7 @@ export default function Services() {
           <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
             <div className="md:5/12 lg:w-5/12 py-8">
               <img
-                src="/images/bg2.png"
+                src="/Images/bg2.png"
                 alt="Not found"
                 loading="lazy"
                 width=""

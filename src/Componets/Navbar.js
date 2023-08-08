@@ -10,7 +10,7 @@ export default function Navbar(props) {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 bg-white-200">
         <Link to="/textutil" className="flex items-center">
           <img
-            src="/images/logo.png"
+            src="/Images/logo.png"
             className="h-8 mr-3"
             alt="Flowbite Logo"
           />
