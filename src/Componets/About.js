@@ -20,7 +20,7 @@ export default function About() {
               <p className="mt-6 text-black-600 text-2xl  text-center py-2">
                 This is My first React App named Textutils.
               </p>
-              <p className="mt-4 text-gray-600"> </p>
+              <p className="mt-4 text-black-600 text-center"> By Abhishek </p>
             </div>
           </div>
         </div>
