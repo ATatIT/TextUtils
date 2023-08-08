@@ -175,7 +175,7 @@ export default function Textarea(prop) {
           onMouseUp={selectedtext}
           rows="10"
           className=" max-w-screen-xl  flex-wrap items-center justify-between mx-auto p-4 bg-white-200 block w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-          placeholder="Write  here..."
+          placeholder="Write  here...or Select the word using mouse to find image"
           ref={inputElement}
         ></textarea>
 
