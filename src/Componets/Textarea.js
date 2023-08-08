@@ -15,33 +15,33 @@ export default function Textarea(prop) {
   }, []);
 
   const onchange = (event) => {
-    console.log("Event");
+    // console.log("Event");
     settext(event.target.value);
   };
 
   const change = () => {
     // convert into uppercase
-    console.log("change");
+    // console.log("change");
     let t = text.toUpperCase();
     settext(t);
   };
 
   const change1 = () => {
     // convert into lowercase
-    console.log("change");
+    // console.log("change");
     let t = text.toLowerCase();
     settext(t);
   };
 
   const change2 = () => {
     // make textarea clear
-    console.log("change");
+    // console.log("change");
     settext("");
   };
 
   const Copy = () => {
     // copy the content of textarea
-    console.log("copy");
+    // console.log("copy");
     var copytext = document.getElementById("message");
     copytext.select();
     navigator.clipboard.writeText(copytext.value);
@@ -49,14 +49,14 @@ export default function Textarea(prop) {
 
   const extraspace = () => {
     // remove extraspace from content
-    console.log("extraspace removed");
+    // console.log("extraspace removed");
     let newtext = text.split(/\s+/);
     settext(newtext.join(" "));
   };
 
   const download = () => {
     // download content from text area
-    console.log("downloaded");
+    // console.log("downloaded");
     const fileName = "Textutil.txt";
 
     const blob = new Blob([text], { type: "text/plain" });
@@ -76,7 +76,7 @@ export default function Textarea(prop) {
 
   const sentencecase = () => {
     // convert text into Sentence case
-    console.log("change");
+    // console.log("change");
     const sentenceCaseText = text.replace(
       /(^|\.\s+|!\s+|\?\s+)([a-z])/g,
       (match, boundary, letter) => {
@@ -87,7 +87,7 @@ export default function Textarea(prop) {
   };
 
   const inveresCase = () => {
-    console.log("change");
+    // console.log("change");
 
     let result = "";
     for (let i = 0; i < text.length; i++) {
@@ -102,7 +102,7 @@ export default function Textarea(prop) {
   };
 
   const handleSearch = async () => {
-    console.log("Search is done");
+    // console.log("Search is done");
     if (!text.trim()) return; // searching a image
     try {
       const response = await axios.get("https://pixabay.com/api/", {
@@ -114,7 +114,7 @@ export default function Textarea(prop) {
       });
       settextforimage("");
       if (response.data.hits) {
-        console.log(response.data);
+        // console.log(response.data);
         setImageResults(response.data.hits);
       } else {
         setImageResults([]);
@@ -130,7 +130,7 @@ export default function Textarea(prop) {
     if (selectionStart !== selectionEnd) {
       const selectedText = text.substring(selectionStart, selectionEnd);
       settextforimage(selectedText);
-      console.log(selectedText);
+      // console.log(selectedText);
     } else {
       settextforimage("");
     }
