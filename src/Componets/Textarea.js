@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import jsPDF from "jspdf";
 
 export default function Textarea(prop) {
   const [text, settext] = useState("");
@@ -55,23 +56,42 @@ export default function Textarea(prop) {
   };
 
   const download = () => {
-    // download content from text area
-    // console.log("downloaded");
-    const fileName = "Textutil.txt";
+    // console.log("download");
+    const doc = new jsPDF();
 
-    const blob = new Blob([text], { type: "text/plain" });
+    const margin = 10;
+    const maxWidth = doc.internal.pageSize.getWidth() - 2 * margin;
+    const lineHeight = 10;
 
-    const url = URL.createObjectURL(blob);
+    // Split content by whitespace characters
+    const words = text.split(/\s+/);
+    let posY = margin;
 
-    const downloadLink = document.createElement("a");
-    downloadLink.href = url;
-    downloadLink.download = fileName;
+    let currentPage = 1;
+    let line = "";
 
-    document.body.appendChild(downloadLink);
+    words.forEach((word) => {
+      const width = doc.getTextWidth(line + " " + word);
 
-    downloadLink.click();
+      if (width < maxWidth) {
+        line += (line === "" ? "" : " ") + word;
+      } else {
+        doc.text(line, margin, posY);
+        posY += lineHeight;
 
-    document.body.removeChild(downloadLink);
+        // Check if we need a new page
+        if (posY + lineHeight > doc.internal.pageSize.getHeight()) {
+          doc.addPage();
+          currentPage++;
+          posY = margin;
+        }
+        line = word;
+      }
+    });
+
+    // Add the last line
+    doc.text(line, margin, posY);
+    doc.save("TextUtils.pdf");
   };
 
   const sentencecase = () => {
