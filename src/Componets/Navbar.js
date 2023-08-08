@@ -8,11 +8,12 @@ export default function Navbar(props) {
   return (
     <nav className="bg-white border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 bg-white-200">
-        <Link to="/textutil" className="flex items-center">
+        <Link to="/textutil" className="flex items-center"  onClick={() => setToggle((prev) => !prev)}>
           <img
             src="/Images/logo.png"
             className="h-8 mr-3"
             alt="Flowbite Logo"
+            
           />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             TextUtils
