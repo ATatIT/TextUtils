@@ -17,7 +17,6 @@ export default function Textarea(prop) {
   });
 
   useEffect (function (){},[])
-  
   const onchange = (event) => {
     // console.log("Event");
     settext(event.target.value);
@@ -257,7 +256,7 @@ export default function Textarea(prop) {
         </div>
       </div>
 
-      <div className="r">
+      <div className="bg-stone-200">
         <p className="max-w-screen-xl  items-center justify-between mx-auto p-4 bg-white-200">
           {text.split(" ").length} Words and {text.length} Charactes{" "}
         </p>
