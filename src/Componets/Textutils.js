@@ -24,7 +24,7 @@ export default function Textutils() {
               <p className="mt-6 text-gray-600">
                 A very handy online text tool where you can change between lower
                 case and upper case letters, where you can capitalize,
-                uncapitalize, convert to mix case and transform your text.
+                uncapitalize, convert to mix case and transform your text,also find images.
               </p>
               <p className="mt-4 text-gray-600"> </p>
             </div>
