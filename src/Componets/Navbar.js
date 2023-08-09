@@ -8,11 +8,7 @@ export default function Navbar(props) {
   return (
     <nav className="  border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 bg-white-200">
-        <Link
-          to="/textutil"
-          className="flex items-center"
-          onClick={() => setToggle((prev) => !prev)}
-        >
+        <Link to="/textutil" className="flex items-center">
           <img
             src="/Images/logo.png"
             className="h-8 mr-3 shadow-xl"
