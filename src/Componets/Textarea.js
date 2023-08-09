@@ -185,7 +185,7 @@ export default function Textarea(prop) {
           <button
             type="button"
             onClick={sentencecase}
-            className=" text-white bg-gradient-to-br from-stone-600 to-stone-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-stone-500 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+            className="grow text-white bg-gradient-to-br from-stone-600 to-stone-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-stone-500 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
           >
             Sentence Case
           </button>
@@ -193,7 +193,7 @@ export default function Textarea(prop) {
           <button
             type="button"
             onClick={change}
-            className=" text-white bg-gradient-to-br from-stone-600 to-stone-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-stone-500 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+            className=" grow text-white bg-gradient-to-br from-stone-600 to-stone-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-stone-500 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
           >
             UpperCas
           </button>
@@ -201,7 +201,7 @@ export default function Textarea(prop) {
           <button
             type="button"
             onClick={change1}
-            className=" text-white bg-gradient-to-br from-stone-600 to-stone-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-stone-500 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+            className=" grow text-white bg-gradient-to-br from-stone-600 to-stone-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-stone-500 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
           >
             LowerCase
           </button>
@@ -209,7 +209,7 @@ export default function Textarea(prop) {
           <button
             type="button"
             onClick={inveresCase}
-            className="  text-white bg-gradient-to-br from-stone-600 to-stone-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-stone-500 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+            className=" grow text-white bg-gradient-to-br from-stone-600 to-stone-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-stone-500 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
           >
             InveresCase
           </button>
@@ -217,7 +217,7 @@ export default function Textarea(prop) {
           <button
             type="button"
             onClick={change2}
-            className="  text-white bg-gradient-to-br from-stone-600 to-stone-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-stone-500 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+            className=" grow text-white bg-gradient-to-br from-stone-600 to-stone-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-stone-500 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
           >
             Clear
           </button>
@@ -225,7 +225,7 @@ export default function Textarea(prop) {
           <button
             type="button"
             onClick={extraspace}
-            className="  text-white bg-gradient-to-br from-stone-600 to-stone-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-stone-500 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+            className=" grow text-white bg-gradient-to-br from-stone-600 to-stone-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-stone-500 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
           >
             Remove Extraspace
           </button>
@@ -233,7 +233,7 @@ export default function Textarea(prop) {
           <button
             type="button"
             onClick={Copy}
-            className="   text-white bg-gradient-to-br from-stone-600 to-stone-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-stone-500 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+            className=" grow  text-white bg-gradient-to-br from-stone-600 to-stone-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-stone-500 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
           >
             Copy
           </button>
@@ -241,7 +241,7 @@ export default function Textarea(prop) {
           <button
             type="button"
             onClick={download}
-            className="  text-white bg-gradient-to-br from-stone-600 to-stone-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-stone-500 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+            className=" grow text-white bg-gradient-to-br from-stone-600 to-stone-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-stone-500 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
           >
             Download
           </button>
@@ -249,7 +249,7 @@ export default function Textarea(prop) {
           <button
             type="button"
             onClick={handleSearch}
-            className="  text-white bg-gradient-to-br from-stone-600 to-stone-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-stone-500 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+            className=" grow text-white bg-gradient-to-br from-stone-600 to-stone-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-stone-500 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
           >
             Find image
           </button>
