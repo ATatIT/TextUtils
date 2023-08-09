@@ -9,7 +9,7 @@ export default function About() {
                 src="/Images/bg1.png"
                 alt="Not found"
                 loading="lazy"
-                className="rounded-lg shadow-md"
+                className="rounded shadow-md"
                 width=""
                 height=""
               />

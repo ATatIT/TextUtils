@@ -11,7 +11,7 @@ export default function Services() {
                 src="/Images/bg2.png"
                 alt="Not found"
                 loading="lazy"
-                className="rounded-lg shadow-md"
+                className="rounded shadow-md"
                 width=""
                 height=""
               />

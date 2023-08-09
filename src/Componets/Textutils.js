@@ -11,7 +11,7 @@ export default function Textutils() {
                 src="/Images/ab.png"
                 alt="Not found"
                 loading="lazy"
-                className=" rounded-xl shadow-xl"
+                className="rounded shadow-xl"
                 width=""
                 height=""
               />
