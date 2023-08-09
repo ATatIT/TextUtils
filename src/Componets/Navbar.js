@@ -6,14 +6,17 @@ export default function Navbar(props) {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-900">
+    <nav className="  border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 bg-white-200">
-        <Link to="/textutil" className="flex items-center"  onClick={() => setToggle((prev) => !prev)}>
+        <Link
+          to="/textutil"
+          className="flex items-center"
+          onClick={() => setToggle((prev) => !prev)}
+        >
           <img
             src="/Images/logo.png"
-            className="h-8 mr-3"
+            className="h-8 mr-3 shadow-xl"
             alt="Flowbite Logo"
-            
           />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             TextUtils
@@ -49,7 +52,7 @@ export default function Navbar(props) {
           bg="true"
           id="navbar-default"
         >
-          <ul className="font-medium flex flex-col p-3 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-900 md:dark:bg-gray-900 dark:border-gray-700 ">
+          <ul className="font-medium flex flex-col p-3 md:p-0 mt-4 border border-gray-100 rounded-lg bg-stone-200 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-900 md:dark:bg-gray-900 dark:border-gray-700 ">
             <li>
               <Link
                 to="/textutil"

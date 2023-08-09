@@ -1,14 +1,15 @@
 export default function About() {
   return (
     <div className="">
-      <div className="py-16 bg-white">
+      <div className="py-16 bg-stone-200 h-screen">
         <div className="container m-auto px-6 text-black-600 md:px-12 xl:px-6">
           <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-            <div className="md:5/12 lg:w-5/12 py-7">
+            <div className="md:5/12 lg:w-5/12 py-7 ">
               <img
                 src="/Images/bg1.png"
                 alt="Not found"
                 loading="lazy"
+                className="rounded-lg shadow-md"
                 width=""
                 height=""
               />
