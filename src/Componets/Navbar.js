@@ -52,7 +52,7 @@ export default function Navbar(props) {
             <li>
               <Link
                 to="/textutil"
-                className="block py-2 pl-3 pr-4 text-gray-900  hover:bg-blue-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-stone-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 aria-current="page"
                 onClick={() => setToggle((prev) => !prev)}
               >
@@ -62,7 +62,7 @@ export default function Navbar(props) {
             <li>
               <Link
                 to="/Textarea"
-                className="block py-2 pl-3 pr-4 text-gray-900  hover:bg-blue-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-stone-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 aria-current="page"
                 onClick={() => setToggle((prev) => !prev)}
               >
@@ -72,7 +72,7 @@ export default function Navbar(props) {
             <li>
               <Link
                 to="/About"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-blue-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-stone-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 onClick={() => setToggle((prev) => !prev)}
               >
                 About
@@ -81,7 +81,7 @@ export default function Navbar(props) {
             <li>
               <Link
                 to="/services"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-blue-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-stone-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 onClick={() => setToggle((prev) => !prev)}
               >
                 Services
