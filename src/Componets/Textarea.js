@@ -195,7 +195,7 @@ export default function Textarea(prop) {
             onClick={change}
             className=" grow text-white bg-gradient-to-br from-stone-600 to-stone-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-stone-500 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
           >
-            UpperCas
+            UpperCase
           </button>
 
           <button

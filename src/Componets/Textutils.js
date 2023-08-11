@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Textutils() {
   return (
-    <div className="">
-      <div className="py-16 bg-stone-200 h-screen">
+    <div className="bg-stone-200 h-screen">
+      <div className="py-16 bg-stone-200">
         <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
           <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
             <div className="md:5/12 lg:w-5/12">
@@ -24,7 +24,8 @@ export default function Textutils() {
               <p className="mt-6 text-gray-600">
                 A very handy online text tool where you can change between lower
                 case and upper case letters, where you can capitalize,
-                uncapitalize, convert to mix case and transform your text,also find images.
+                uncapitalize, convert to mix case and transform your text,also
+                find images.
               </p>
               <p className="mt-4 text-gray-600"> </p>
             </div>
