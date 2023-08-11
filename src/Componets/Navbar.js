@@ -6,7 +6,7 @@ export default function Navbar(props) {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="  border-gray-200 dark:bg-gray-900">
+    <nav className="bg-stone-50">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 bg-white-200">
         <Link to="/textutil" className="flex items-center">
           <img
@@ -48,11 +48,12 @@ export default function Navbar(props) {
           bg="true"
           id="navbar-default"
         >
-          <ul className="font-medium flex flex-col p-3 md:p-0 mt-4 border border-gray-100 rounded-lg bg-stone-200 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-900 md:dark:bg-gray-900 dark:border-gray-700 ">
+          <ul className="font-medium flex flex-col p-3 md:p-0 mt-4 border border-gray-100 rounded-lg bg-stone-200  md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-stone-50 dark:bg-gray-900 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
               <Link
                 to="/textutil"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-stone-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                data-collapse-toggle="navbar-default"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-stone-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent  "
                 aria-current="page"
                 onClick={() => setToggle((prev) => !prev)}
               >
@@ -62,7 +63,7 @@ export default function Navbar(props) {
             <li>
               <Link
                 to="/Textarea"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-stone-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-stone-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 aria-current="page"
                 onClick={() => setToggle((prev) => !prev)}
               >
@@ -72,7 +73,7 @@ export default function Navbar(props) {
             <li>
               <Link
                 to="/About"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-stone-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-stone-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 onClick={() => setToggle((prev) => !prev)}
               >
                 About
@@ -81,7 +82,7 @@ export default function Navbar(props) {
             <li>
               <Link
                 to="/services"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-stone-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-stone-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 onClick={() => setToggle((prev) => !prev)}
               >
                 Services
